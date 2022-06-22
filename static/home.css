@@ -1,0 +1,101 @@
+html{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient( to bottom right, #553061, #524e81);
+    background-repeat: no-repeat;
+}
+
+.pres{
+    font-family:'Alfa Slab One';
+    font-size: 70px;
+    font-weight: 50;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    background-image: linear-gradient(to right, #6769dd, #af9fff );
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text{
+    display:flex;
+    justify-content: center;
+    color: silver;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 50;
+}
+
+.flex{
+    display:flex;
+    justify-content: center;
+}
+
+.btngame{
+    background: none;
+    color:white;
+    border:none ;
+    text-align: center;
+    font-size: 20px;
+    transition: 0.6s;
+    border-radius: 100px;
+    padding:10px;
+}
+
+.gamebtn{
+    margin:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: solid white;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: none;
+    height: 300px;
+    width: 200px;
+    transition: 0.5s;
+}
+
+.gamebtn:hover{
+    box-shadow: 0 0 1em rgb(125, 160, 224),inset 0 0 5px rgb(161, 240, 236) ;
+}
+
+.btngame:hover{
+    cursor:pointer;
+    box-shadow: 0 0 1em rgb(125, 160, 224),  inset 0 0 5px rgb(161, 240, 236);
+}
+
+.testbtn{
+    margin:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: solid white;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: none;
+    height: 300px;
+    width: 200px;
+    transition: 0.5s;
+}
+
+.backbtn{
+    background: none;
+    color:white;
+    border:none ;
+    text-align: center;
+    font-size: 20px;
+    transition: 0.6s;
+    border-radius: 100px;
+    padding:10px;
+}
+
+.backbtn:hover{
+    cursor:pointer;
+    box-shadow: 0 0 1em rgb(125, 160, 224),  inset 0 0 5px rgb(161, 240, 236);
+}
+
+.testbtn:hover{
+    box-shadow: 0 0 1em rgb(125, 160, 224),inset 0 0 5px rgb(161, 240, 236) ;
+}

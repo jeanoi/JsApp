@@ -1,0 +1,186 @@
+html {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient( to bottom right, rgb(201, 233, 248), rgb(231, 255, 191), rgb(240, 140, 122));
+    background-repeat: no-repeat;
+    position:relative;
+}
+
+
+.gif{
+    object-position: bottom;
+    background-image: url(pretty.gif);
+    height: 210px;
+    width: 230px;
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+
+.p{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color:rgb(155, 128, 128);
+    padding: 1px;
+    margin: 1px;
+}
+
+.title{
+    font-family:'Aldrich';
+    font-size: 50px;
+    font-weight: 50;
+    display:flex;
+    justify-content: center;
+    color:white;
+    background-image: linear-gradient(to right, rgb(70, 67, 67), #f3d2d2);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.flex{
+    display:flex;
+    justify-content: center;
+}
+
+.rockbtn{
+    margin:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: solid rgb(182, 204, 250);
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: none;
+    height: 100px;
+    width: 200px;
+    cursor:pointer;
+    background-image: linear-gradient(to top, #ebacba, #fca9ee);
+    font-size: 80px;
+}
+
+.paperbtn{
+    margin:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: solid rgb(182, 204, 250);
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: none;
+    height: 100px;
+    width: 200px;
+    cursor:pointer;
+    background-image: linear-gradient(to top, #ebacba, #fca9ee);
+    font-size: 80px;
+}
+
+.scibtn{
+    margin:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: solid rgb(182, 204, 250);
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: none;
+    height: 100px;
+    width: 200px;
+    cursor:pointer;
+    background-image: linear-gradient(to top, #ebacba, #fca9ee);
+    font-size: 80px;
+}
+
+.resultbtn{
+    margin:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: solid rgb(182, 204, 250);
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: none;
+    height: 100px;
+    width: 200px;
+    cursor:pointer;
+    background-image: linear-gradient(to top, #ebacba, #fca9ee);
+    font-family: 'Actor';font-size: 15px;
+}
+
+.scores{
+    display:flex;
+    position:absolute;
+    bottom: 210px;
+}
+
+.CSdiv{
+    margin-left:50px;
+    margin-right:270px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: solid rgb(182, 204, 250);
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: none;
+    height: 100px;
+    width: 200px;
+    cursor:pointer;
+    background-image: linear-gradient(to top, #ebacba, #fca9ee);
+    font-family: 'Actor';font-size: 15px;
+}
+
+.HSdiv{
+    margin-left:250px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: solid rgb(182, 204, 250);
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: none;
+    height: 100px;
+    width: 200px;
+    cursor:pointer;
+    background-image: linear-gradient(to top, #ebacba, #fca9ee);
+    font-family: 'Actor';font-size: 15px;
+}
+
+.scorediv{
+    margin-right:320px;
+    margin:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: solid rgb(182, 204, 250);
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: none;
+    height: 100px;
+    width: 200px;
+    cursor:pointer;
+    background-image: linear-gradient(to top, #ebacba, #fca9ee);
+    font-family: 'Actor';font-size: 15px;
+}
+
+
+.restartbtn{
+    margin:10px;
+    background-image: linear-gradient(to top, #ebacba, #fca9ee);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: solid rgb(182, 204, 250);
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: none;
+    height: 100px;
+    width: 200px;
+    cursor:pointer;
+    position:absolute;
+    left: 41.5%;
+    bottom: 40px;
+    font-family: 'Actor';font-size: 15px;
+}
