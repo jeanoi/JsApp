@@ -13,7 +13,7 @@
 3. Rock Paper Scissors
 ![Screenshot from 2022-06-22 14-47-32](https://user-images.githubusercontent.com/91775837/175103239-733daf87-90ed-48d1-b29f-1389593c5ee6.png)
 
-4. Back end functionality (it simply fetch data from Tvmaze, utilizing axios and display a couple of images of the key words searched):
+4. Back end functionality (it simply fetch data from Tvmaze, utilizing axios to create a HTTP client, and display a couple of images of the key words searched):
 ![Screenshot from 2022-06-22 14-49-04](https://user-images.githubusercontent.com/91775837/175103848-921b4a23-bdf3-433d-a090-1b3de5445526.png)
 
 
