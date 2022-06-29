@@ -1,4 +1,4 @@
-## A small application I have built, utilizing the Express framework as it's main routing tool, insinde it are tree games that i have developed and a backend app, here are the results:
+## A small application I have built, utilizing the Express framework as it's main routing tool, insinde it are three games that i have developed and a backend app, here are the results:
 
 
 ## Homepage:
